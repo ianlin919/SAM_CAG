@@ -265,7 +265,7 @@ class CAG(Dataset):
         # all_name = [name for name in os.listdir(f'{data_path}/imgs')]
         # # df = pd.read_csv(os.path.join(data_path, 'ISBI2016_ISIC_Part1_' + mode + '_GroundTruth.csv'), encoding='gbk')
         # # all_name = [f'CVAI-0005_LCX_RAO25_CAU35_39.png']
-        data_path = f'/home/jannawu/Desktop/all_cag_files/all_without_Aug_single'
+        data_path = f'/nmt/workspace/CAG/train/5F_2'
 
         # if selected_name is not None:
         #     self.name_list = [f'{data_path}/imgs/{name}' for name in selected_name]

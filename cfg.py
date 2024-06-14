@@ -55,10 +55,10 @@ def parse_args():
     # parser.add_argument("--i_dir", "--img_dir", default=Path("/home/ryan0208/python/semi/data/cag/imgs2"))
     # parser.add_argument("--l_dir", "--label_dir", default=Path("/home/ryan0208/python/semi/data/cag/labels2"))
     parser.add_argument("--t_txt_path", "--train_txt_path",
-                        default="/home/ryan0208/python/semi/data/cag/labeled_400_2.txt")
-    parser.add_argument("--v_txt_path", "--valid_txt_path", default="/home/ryan0208/python/semi/data/cag/valid_2.txt")
+                        default="/mnt/workspace/s3_train/1229/labeled_400_2.txt")
+    parser.add_argument("--v_txt_path", "--valid_txt_path", default="/mnt/workspace/s3_train/1229/valid_2.txt")
     
-    parser.add_argument('-data_path',type=str,default='/home/jannawu/Desktop/all_cag_files/all_without_Aug_single',help='The path of segmentation data')
+    parser.add_argument('-data_path',type=str,default='/nmt/workspace/CAG/train/5F_2',help='The path of segmentation data')
     # '../dataset/RIGA/DiscRegion'
     # '../dataset/ISIC'
     opt = parser.parse_args()
